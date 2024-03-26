@@ -10,8 +10,8 @@ body {
   background-image: linear-gradient(to right, #2c3e50, hsl(143, 70%, 53%));
   display: flex;
   position: fixed;
-  justify-content: center;
-  padding: 10vch;
+  justify-content: space-evenly;
+  padding: 20px;
   text-align: center;
   top: 0;
   left: 0;
@@ -30,16 +30,20 @@ body {
   color: #ffffff;
   display: flex;
   justify-content: space-around;
-  padding: 10vch;
-  text-align: center;
   position: fixed;
   bottom: 0;
-  left: 0;
   width: 100%;
   z-index: 1000;
   overflow: hidden;
 }
 
+.footerinfo {
+  text-align: left;
+}
+
+.footercontact {
+  text-align: right;
+}
 
 .footer a {
   color: #ffd97f;
