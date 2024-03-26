@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+  color: aqua; 
+  margin: 0;
+}
+
+
+/* Navbar styling */
+.headstyle {
+  background-image: linear-gradient(to right, #2c3e50, hsl(143, 70%, 53%));
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  padding: 10vch;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  overflow: hidden;
+  flex-direction: row;
+  margin-top: 0px ;
+
+}
+
+
+  /* Footer Styling */
+.footer {
+  background-image: linear-gradient(to right, #2c3e50, hsl(143, 70%, 53%));
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  padding: 10vch;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+
+.footer a {
+  color: #ffd97f;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline; 
+}
