@@ -16,10 +16,14 @@ import { Link } from 'react-router-dom';
                 <button onClick={() => {
                    window.location.href = "http://localhost:5173";
                    }}className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">Home</button>
+                  
+                  {/* Services */}
+                  <button onClick={() => {
+                   window.location.href = "http://localhost:5173/services";
+                  }}className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">Services</button>
 
-                   <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">Services</button>
-                   <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">Testimonials</button>
-                   <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">Contact Us</button>
+                   {/* <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">Testimonials</button>
+                   <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">Contact Us</button> */}
 
                    {/* Log In/ Sign Up */}
                    <button onClick={() => {

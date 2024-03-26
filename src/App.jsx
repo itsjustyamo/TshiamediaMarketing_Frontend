@@ -5,6 +5,7 @@ import { Route,Routes } from 'react-router-dom';
 // import AuthPage from './pages/auth';
 import Dashboard from './pages/dashboard';
 import LogIn from './pages/LogIn';
+import Services from './pages/services';
 
 // import Navbar from './components/navbar';
 // import ProtectedRoutes from './components/protectedRoutes';
@@ -20,6 +21,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Dashboard/>}/>
       <Route path="/login" element={<LogIn/>}/>
+      <Route path="/services" element={<Services/>}/>
     </Routes>
     {/* <Navbar />
     <h1>My Movie App</h1>
