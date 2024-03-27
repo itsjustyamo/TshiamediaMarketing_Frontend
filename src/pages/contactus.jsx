@@ -1,10 +1,7 @@
-import axios from "axios";
-import { useParams } from "react-router-dom";
-import { useEffect, useState } from "react";
-
+// import { useAuth } from '../contexts/auth_context';
 import Navbar from "../components/navbar"; 
 import Footer from "../components/footer";
-import Login from "../components/login-signup-form";
+
 
 // const Dashboard = () => {
 //   const { logout } = useAuth();
@@ -12,16 +9,15 @@ import Login from "../components/login-signup-form";
 //   const handleClick = () => {
 //     logout();
 //   };
-  function LogIn (){
+  function ContactUs (){
 
   return (
    <>
         <Navbar/>
-        <LogIn/>
-      <h1>This is Log in Page</h1>
+      <h1>This is Contact Us</h1>
         <Footer/>
   </>
   );
 };
 
-export default LogIn;
+export default ContactUs;

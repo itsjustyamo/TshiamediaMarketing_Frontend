@@ -8,7 +8,9 @@ import { Link } from 'react-router-dom';
      <header className="bg-gradient-to-r from-gray-200 to-green-500 text-white py-4 w-full">
      <div className="container mx-auto">
             <nav className="justify-between items-center px-8">
-                <div className="text-xl font-bold">Your Logo</div>
+                <div className="text-xl font-bold">
+                  <img src='src/assets/TshiaMedia+clean+background+logo.png' alt='logo' style={{ width: '100px', height: '100px', marginBottom: '20px' }}></img>
+                </div>
 
                 <div className="flex space-x-4">
 
@@ -22,8 +24,10 @@ import { Link } from 'react-router-dom';
                    window.location.href = "http://localhost:5173/services";
                   }}className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">Services</button>
 
-                   {/* <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">Testimonials</button>
-                   <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">Contact Us</button> */}
+                   {/*Contact Us*/}
+                   <button   onClick={() => {
+                   window.location.href = "http://localhost:5173/contactus";
+                  }} className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">Contact Us</button> 
 
                    {/* Log In/ Sign Up */}
                    <button onClick={() => {

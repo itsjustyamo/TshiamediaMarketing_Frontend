@@ -23,7 +23,7 @@ function DigitalStrategy() {
   return (
     <div>
       <button onClick={fetchDigitalStrategies} disabled={isLoading}>
-        {isLoading ? 'Loading...' : 'Digital Strategies'}
+        {isLoading ? 'Loading...' : 'Web Development'}
        
       </button>
     

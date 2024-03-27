@@ -2,6 +2,9 @@
 import Navbar from "../components/navbar"; 
 import Footer from "../components/footer"
 import DigitalStrategy from "../components/digitalstrategy";
+import GraphicDesign from "../components/graphicdesign";
+import SocialMediaManagement from "../components/socialmediamanagement";
+import WebDevelopment from "../components/webdevelopment";
 
 
 // const Dashboard = () => {
@@ -18,9 +21,9 @@ import DigitalStrategy from "../components/digitalstrategy";
       <h1>This is Services page</h1>
       <ul>
         <DigitalStrategy/>
-        <ol>Social Media management</ol>
-        <ol>Graphic Design</ol>
-        <ol>Web development</ol>
+        <SocialMediaManagement/>
+        <GraphicDesign/>
+        <WebDevelopment/>
       </ul>
         <Footer/>
   </>
