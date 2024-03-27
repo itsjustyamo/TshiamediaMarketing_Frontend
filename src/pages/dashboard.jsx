@@ -20,8 +20,9 @@ const Dashboard = () => {
         <p>At Tshiamedia, we believe in the power of strategic planning, personalized campaigns, and persistent efforts to drive results. Our team of experts specializes in digital marketing, social media management, content creation, branding, and more.</p>
         <p>Our slogan is: Planned, Personalised, and Persistent. This reflects our commitment to delivering customized strategies that align with your business objectives and goals.</p>
         <p>Whether you're a startup looking to establish your brand presence or a seasoned business aiming to expand your reach, we are here to help you succeed. Let us bring your marketing efforts to life and elevate your brand to new heights.</p>
-        <button onClick={handleServicesClick} style={{ marginTop: '20px', padding: '10px 20px', borderRadius: '5px', fontSize: '16px', backgroundColor: '#007bff', color: '#fff', border: 'none', cursor: 'pointer' }}>Services</button>
+        <button onClick={handleServicesClick} style={{ marginTop: '20px', padding: '10px 20px', borderRadius: '5px', fontSize: '16px', backgroundColor: 'green', color: '#fff', border: 'none', cursor: 'pointer' }}>Services</button>
       </div>
+      <img src='src/assets/IMG_6468.JPG' alt='digital' style={{ width: '20px', height: '20px', marginBottom: '20px' }}></img>
       <Footer/>
     </>
   );

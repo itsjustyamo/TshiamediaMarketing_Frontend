@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to bottom, #000000, #333333, #004d00);
+  background: linear-gradient(to bottom, #000000, #333333, #3ccf3c);
   text-align: center;
   color: whitesmoke;
   margin: 0;
@@ -11,7 +11,7 @@ body {
 
 /* Navbar styling */
 .headstyle {
-  background-image: linear-gradient(to right, #354555, hsl(143, 13%, 25%));
+  background-image: linear-gradient(to right, #354555, hsl(145, 81%, 53%));
   display: flex;
   position: fixed;
   justify-content: space-evenly;
@@ -30,7 +30,7 @@ body {
 
   /* Footer Styling */
 .footer {
-  background-image: linear-gradient(to right, #2c3e50, hsl(146, 17%, 16%));
+  background-image: linear-gradient(to right, #2c3e50, hsl(145, 81%, 53%));
   color: #ffffff;
   display: flex;
   justify-content: space-around;

@@ -34,6 +34,8 @@ function ContactUs () {
         <>
             <Navbar/>
             <div className="container">
+            <img src='src/assets/IMG_6468.JPG' alt='digital' style={{ width: '20px', height: '20px', marginBottom: '20px' }}></img>
+   
                 <h1>Contact Us</h1>
                 <div className="contact-info">
                     <p>Phone: 412-255-5555</p>
@@ -43,7 +45,6 @@ function ContactUs () {
                 <div className="contact-form">
                     <p>We'd love to hear from you! Please fill out the form below to get in touch with us.</p>
                     <form style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', padding: '20px', borderRadius: '10px' }} onSubmit={handleSubmit}>
-                        <h2>Contact Us</h2>
                         <input type="text" name="name" placeholder="Your Name" value={name} onChange={handleChange} style={{ marginTop: '10px', padding: '10px', width: '100%', borderRadius: '5px', fontSize: '16px', border: 'none' }} required />
                         <br/>
                         <input type="email" name="email" placeholder="Your Email" value={email} onChange={handleChange} style={{ marginTop: '10px', padding: '10px', width: '100%', borderRadius: '5px', fontSize: '16px', border: 'none' }} required />
@@ -54,6 +55,7 @@ function ContactUs () {
                     </form>
                 </div>
             </div>
+            <img src='src/assets/IMG_6468.JPG' alt='digital' style={{ width: '20px', height: '20px', marginBottom: '20px' }}></img>
             <Footer/>
         </>
     );

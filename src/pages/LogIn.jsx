@@ -31,6 +31,7 @@ function LogIn () {
                     <button type="submit" style={{ marginTop: '10px', padding: '10px', width: '100%', borderRadius: '5px', fontSize: '16px', border: 'none', backgroundColor: 'green', color: 'white', cursor: 'pointer' }}>Sign Up</button>
                 </form>
             </div>
+            <img src='src/assets/IMG_6468.JPG' alt='digital' style={{ width: '20px', height: '20px', marginBottom: '20px' }}></img>
             <Footer/>
         </>
     );
