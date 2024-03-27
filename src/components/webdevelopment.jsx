@@ -35,11 +35,16 @@ function DigitalStrategy() {
     <p>{digitalStrategyItem.description}</p>
     <p>need_service: {digitalStrategyItem.need_service ? 'Yes' : 'No'}</p>
     <p>Price: {digitalStrategyItem.price}</p>
+    <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
+           Read More</button>
+           
           </div>
+         
         ))}
       </div>
     </div>
     </div> 
+   
   );
 };
 
