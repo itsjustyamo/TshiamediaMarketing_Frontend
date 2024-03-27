@@ -24,7 +24,7 @@ function DigitalStrategy() {
     <div>
  <img src='src/assets/IMG_6468.JPG' alt='digital' style={{ width: '300px', height: '300px', marginBottom: '20px' }}></img>
     
-
+<br/>
       <button onClick={fetchDigitalStrategies} disabled={isLoading}>
         {isLoading ? 'Loading...' : 'Web Development'}
        

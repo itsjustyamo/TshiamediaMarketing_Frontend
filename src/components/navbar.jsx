@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
       <div className='headstyle'>
      <header className="bg-gradient-to-r from-gray-200 to-green-500 text-white py-4 w-full">
      <div className="container mx-auto">
-            <nav className="justify-between items-center px-8">
+            <nav className="justify-evenly items-center px-8">
                
 
                 <div className="flex space-x-4">

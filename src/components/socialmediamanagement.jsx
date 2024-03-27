@@ -25,7 +25,7 @@ function SocialMediaManagement() {
    
    <img src='src/assets/IMG_6467.JPG' alt='digital' style={{ width: '300px', height: '300px', marginBottom: '20px' }}></img>
         
-    
+   <br/>
       <button onClick={fetchDigitalStrategies} disabled={isLoading}>
         {isLoading ? 'Loading...' : 'Social Media Management'}
        
@@ -39,7 +39,7 @@ function SocialMediaManagement() {
     <p>{SocialMediaManagementItem.description}</p>
     <p>need_service: {SocialMediaManagementItem.need_service ? 'Yes' : 'No'}</p>
     <p>Price: {SocialMediaManagementItem.price}</p>
-    <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
+    <button className="bg-green-500 hover:bg-green-600 text-white background-color-green font-bold py-2 px-4 rounded">
            Read More</button>
           </div>
         ))}

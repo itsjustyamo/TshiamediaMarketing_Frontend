@@ -1,4 +1,3 @@
-//First
 import React, { useState } from 'react';
 import axios from 'axios';
 
@@ -6,7 +5,7 @@ function GraphicDesign() {
   const [graphicDesign, setGraphicDesign] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
-
+// Fetch Data
   const fetchGraphicdesign = async () => {
     setIsLoading(true);
     try {
@@ -23,7 +22,7 @@ function GraphicDesign() {
   return (
     <div>
       <img src='src/assets/IMG_6469.JPG' alt='digital' style={{ width: '300px', height: '300px', marginBottom: '20px' }}></img>
-        
+      <br/>
     
       <button onClick={fetchGraphicdesign} disabled={isLoading}>
         {isLoading ? 'Loading...' : 'Graphic Design'}

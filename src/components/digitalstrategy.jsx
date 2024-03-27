@@ -1,4 +1,3 @@
-//First
 import React, { useState } from 'react';
 import axios from 'axios';
 
@@ -6,7 +5,7 @@ function DigitalStrategy() {
   const [digitalStrategy, setDigitalStrategy] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
-
+// Fetch Data
   const fetchDigitalStrategies = async () => {
     setIsLoading(true);
     try {
@@ -23,7 +22,7 @@ function DigitalStrategy() {
   return (
     <div>
       <img src='src/assets/IMG_6470.PNG' alt='digital' style={{ width: '300px', height: '300px', marginBottom: '20px' }}></img>
-                
+      <br/>
       <button onClick={fetchDigitalStrategies} disabled={isLoading}>
         {isLoading ? 'Loading...' : 'Digital Strategies'}
        
