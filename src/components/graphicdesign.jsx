@@ -24,11 +24,12 @@ function GraphicDesign() {
       <img src='src/assets/IMG_6469.JPG' alt='digital' style={{ width: '300px', height: '300px', marginBottom: '20px' }}></img>
       <br/>
     
+      <div className='head'>
       <button onClick={fetchGraphicdesign} disabled={isLoading}>
         {isLoading ? 'Loading...' : 'Graphic Design'}
        
       </button>
-    
+    </div>
       <div>
       <div style={{ color: 'white', padding: '10px', marginTop: '10px' }}>
       {graphicDesign.map((graphicDesignItem) => (

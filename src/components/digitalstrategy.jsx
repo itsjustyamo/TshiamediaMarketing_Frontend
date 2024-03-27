@@ -23,10 +23,13 @@ function DigitalStrategy() {
     <div>
       <img src='src/assets/IMG_6470.PNG' alt='digital' style={{ width: '300px', height: '300px', marginBottom: '20px' }}></img>
       <br/>
+
+      <div className='head'>
       <button onClick={fetchDigitalStrategies} disabled={isLoading}>
         {isLoading ? 'Loading...' : 'Digital Strategies'}
        
-      </button>
+      </button> 
+      </div>
     
       <div>
       <div style={{ color: 'white', padding: '10px', marginTop: '10px' }}>

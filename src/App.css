@@ -33,6 +33,26 @@ img {
 object-fit: cover;
 
 }
+
+@keyframes rainbow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+  }
+  
+  h1 {
+  background-image: linear-gradient(to right, #354555, hsl(145, 81%, 53%));
+  background-size: 200% auto;
+  animation: rainbow 2s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+h2 {
+  background-image: linear-gradient(to right, #354555, hsl(145, 81%, 53%));
+  width: 100%;
+}
+
   /* Footer Styling */
 .footer {
   background-image: linear-gradient(to right, #2c3e50, hsl(145, 81%, 53%));

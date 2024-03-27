@@ -26,11 +26,12 @@ function SocialMediaManagement() {
    <img src='src/assets/IMG_6467.JPG' alt='digital' style={{ width: '300px', height: '300px', marginBottom: '20px' }}></img>
         
    <br/>
+   <div className='head'>
       <button onClick={fetchDigitalStrategies} disabled={isLoading}>
         {isLoading ? 'Loading...' : 'Social Media Management'}
        
       </button>
-    
+      </div>
       <div>
       <div style={{ color: 'white', padding: '10px', marginTop: '10px' }}>
       {SocialMediaManagement.map((SocialMediaManagementItem) => (

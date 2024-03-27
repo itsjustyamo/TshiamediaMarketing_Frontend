@@ -25,11 +25,12 @@ function DigitalStrategy() {
  <img src='src/assets/IMG_6468.JPG' alt='digital' style={{ width: '300px', height: '300px', marginBottom: '20px' }}></img>
     
 <br/>
+<div className='head'>
       <button onClick={fetchDigitalStrategies} disabled={isLoading}>
         {isLoading ? 'Loading...' : 'Web Development'}
        
       </button>
-    
+    </div>
       <div>
       <div style={{ color: 'white', padding: '10px', marginTop: '10px' }}>
       {digitalStrategy.map((digitalStrategyItem) => (
