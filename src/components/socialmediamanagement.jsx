@@ -22,6 +22,10 @@ function SocialMediaManagement() {
 
   return (
     <div>
+   
+   <img src='src/assets/IMG_6467.JPG' alt='digital' style={{ width: '300px', height: '300px', marginBottom: '20px' }}></img>
+        
+    
       <button onClick={fetchDigitalStrategies} disabled={isLoading}>
         {isLoading ? 'Loading...' : 'Social Media Management'}
        

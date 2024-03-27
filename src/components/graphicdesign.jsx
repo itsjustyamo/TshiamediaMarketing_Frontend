@@ -22,6 +22,9 @@ function GraphicDesign() {
 
   return (
     <div>
+      <img src='src/assets/IMG_6469.JPG' alt='digital' style={{ width: '300px', height: '300px', marginBottom: '20px' }}></img>
+        
+    
       <button onClick={fetchGraphicdesign} disabled={isLoading}>
         {isLoading ? 'Loading...' : 'Graphic Design'}
        
