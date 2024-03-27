@@ -1,9 +1,13 @@
 body {
-  background-color: black;
-  color: aqua; 
+  background: linear-gradient(to bottom, #000000, #333333, #004d00);
+  text-align: center;
+  color: whitesmoke;
   margin: 0;
 }
 
+.container {
+  text-align: center;
+}
 
 /* Navbar styling */
 .headstyle {

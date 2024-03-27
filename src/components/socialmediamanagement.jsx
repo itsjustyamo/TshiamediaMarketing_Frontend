@@ -28,13 +28,15 @@ function SocialMediaManagement() {
       </button>
     
       <div>
-      <div style={{ color: 'green', border: '1px solid white', padding: '10px', marginTop: '10px' }}>
+      <div style={{ color: 'white', padding: '10px', marginTop: '10px' }}>
       {SocialMediaManagement.map((SocialMediaManagementItem) => (
   <div key={SocialMediaManagementItem._id}>
     <h2>{SocialMediaManagementItem.package_name}</h2>
     <p>{SocialMediaManagementItem.description}</p>
     <p>need_service: {SocialMediaManagementItem.need_service ? 'Yes' : 'No'}</p>
     <p>Price: {SocialMediaManagementItem.price}</p>
+    <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
+           Read More</button>
           </div>
         ))}
       </div>

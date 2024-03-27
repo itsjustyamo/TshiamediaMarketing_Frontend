@@ -28,13 +28,15 @@ function DigitalStrategy() {
       </button>
     
       <div>
-      <div style={{ color: 'green', border: '1px solid white', padding: '10px', marginTop: '10px' }}>
+      <div style={{ color: 'white', padding: '10px', marginTop: '10px' }}>
       {digitalStrategy.map((digitalStrategyItem) => (
   <div key={digitalStrategyItem._id}>
     <h2>{digitalStrategyItem.package_name}</h2>
     <p>{digitalStrategyItem.description}</p>
     <p>need_service: {digitalStrategyItem.need_service ? 'Yes' : 'No'}</p>
     <p>Price: {digitalStrategyItem.price}</p>
+    <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
+           Read More</button>
           </div>
         ))}
       </div>

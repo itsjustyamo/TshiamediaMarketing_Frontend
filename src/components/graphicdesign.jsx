@@ -28,13 +28,15 @@ function GraphicDesign() {
       </button>
     
       <div>
-      <div style={{ color: 'green', border: '1px solid white', padding: '10px', marginTop: '10px' }}>
+      <div style={{ color: 'white', padding: '10px', marginTop: '10px' }}>
       {graphicDesign.map((graphicDesignItem) => (
   <div key={graphicDesignItem._id}>
     <h2>{graphicDesignItem.package_name}</h2>
     <p>{graphicDesignItem.description}</p>
     <p>need_service: {graphicDesignItem.need_service ? 'Yes' : 'No'}</p>
     <p>Price: {graphicDesign.price}</p>
+    <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
+           Read More</button>
           </div>
         ))}
       </div>
